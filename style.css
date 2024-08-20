@@ -1,0 +1,18 @@
+p {
+    font-family: 'Futura Bold', 'Futura', sans-serif;
+}
+
+.my_class {
+	color :  red;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.matemasie-regular {
+	font-family: "Matemasie", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+  }
