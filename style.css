@@ -3,8 +3,7 @@ p {
 }
 
 .my_class {
-	color :  red;
-	font-size: 30px;
+	color : #ffa895;
 	font-style: italic;
 	font-weight: 700;
 	text-decoration: underline;
@@ -14,5 +13,44 @@ p {
 	font-family: "Matemasie", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: 40px;
 	text-align: center;
-  }
+	color: #eddfb2;
+	text-shadow: 5px 5px 0px rgb(29, 49, 63);
+	background-size: auto;
+	padding: 150px;
+	/* background-position: top; */
+	/* background: linear-gradient( #2c3e50,#bdc3c7); */
+	background: linear-gradient(90deg,#8360c3, #2ebf91);
+}
+
+.image_container
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.border_img{
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 6px 6px 20px rgb(29, 49, 63);
+}
+
+.border{
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 50px;
+	/* border-bottom: 2px solid orange;
+	border-right: 6px solid white;
+	border-left: 3px solid white;
+	border-top: 4px solid orange; */
+}
+
+body{
+
+	background-color: #bdc3c7;
+	/* background-image: url("img/Universe.jpeg"); */
+	/* color: white; */
+}
