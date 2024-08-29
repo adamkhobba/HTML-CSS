@@ -14,5 +14,47 @@ p {
 	font-family: "Matemasie", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: 40px;
 	text-align: center;
+	padding: 100px;
+	background:linear-gradient(90deg, #ef32d9, #89fffd);
   }
+
+.border{
+	border: 5px solid #91a4e3;
+	border-radius: 10px;
+}
+
+.img{
+	border: 5px solid skyblue;	
+	box-shadow: 6px 6px 15px black;
+}
+
+.center_img{
+	text-align: center;
+}
+
+img:hover{
+	opacity: 0.5;
+
+}
+
+img:hover + h2{
+	color: deeppink;
+}
+
+/* h2:hover {
+	font-size: xx-large;
+} */
+
+/* p:active{
+	color: deeppink;
+	text-decoration: underline;
+} */
+
+p:focus{
+	background-color: #2a2b30;
+	color: white;
+	outline-color: deeppink;
+}
+
