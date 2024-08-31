@@ -3,7 +3,7 @@ p {
 }
 
 .my_class {
-	color : #ffa895;
+	color : #466ec5;
 	font-style: italic;
 	font-weight: 700;
 	text-decoration: underline;
@@ -24,6 +24,7 @@ p {
 	background: linear-gradient(90deg,#8360c3, #2ebf91);
 }
 
+/* img */
 .image_container
 {
 	width: 100%;
@@ -48,9 +49,20 @@ p {
 	border-top: 4px solid orange; */
 }
 
+img:hover{
+	opacity: 0.5;
+}	
+
+button:active{
+	color: skyblue;
+}
+/* body */
+
 body{
 
 	background-color: #bdc3c7;
 	/* background-image: url("img/Universe.jpeg"); */
 	/* color: white; */
 }
+
+
