@@ -28,6 +28,51 @@ p {
 	/* background-position: top; */
 	/* background: linear-gradient( #2c3e50,#bdc3c7); */
 
+/** box */
+
+.box{
+	width: 30%;
+	/* height: 40px; */
+	padding: 10px;
+	text-align: center;
+	background: #28b389;
+	border: 2px solid #2c3e50;
+	/* margin-left: 10px; */
+	border-radius: 10px;
+}
+
+/** flex */
+
+.container{
+	display: flex;
+	flex-direction: row;
+	/* width: 100%; */
+	/* overflow-x: scroll; */
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* align-items: center; */
+}
+/*
+.element_1{
+	order: 2;
+}
+
+.element_2{
+	order: 3;
+}
+
+.element_3{
+	order: 1;
+	flex: 1;
+} */
+
+.box_{
+	margin: 5px;
+	background-color: black;
+	height: 150px;
+	width: 150px;
+}
+
 /* img */
 .image_container
 {
@@ -60,6 +105,7 @@ img:hover{
 button:active{
 	color: skyblue;
 }
+
 /* body */
 
 body{
@@ -68,5 +114,4 @@ body{
 	/* background-image: url("img/Universe.jpeg"); */
 	/* color: white; */
 }
-
 
