@@ -1,4 +1,4 @@
-p {
+p, label {
     font-family: 'Futura Bold', 'Futura', sans-serif;
 	margin: 20px;
 }
@@ -116,8 +116,6 @@ p {
 	grid-column-end: 6;
 }
 
-
-
 /*
 .element_1{
 	order: 2;
@@ -197,7 +195,28 @@ td, th{
 	padding: 10px;
 }
 
+/* table */
 table{
 	border-collapse: collapse;
+}
+
+ /* form */
+
+.form{
+	display: flex;
+	flex-direction: column;
+	/* margin-top: 5px;
+	margin-left: 0px;
+	margin-right: 0px; */
+}
+
+.label_modifications{
+	margin: 0px;
+	font-weight: bold;
+}
+
+.input{
+	border: 2px solid black;
+	border-radius: 10px;
 }
 
