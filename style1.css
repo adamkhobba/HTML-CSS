@@ -1,0 +1,177 @@
+p {
+    font-family: 'Futura Bold', 'Futura', sans-serif;
+	margin: 20px;
+	color:rgb(183, 240, 181);
+}
+
+.my_class {
+	color : #466ec5;
+	font-style: italic;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.matemasie-regular {
+	font-family: "Matemasie", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #eddfb2;
+	text-shadow: 5px 5px 0px rgb(29, 49, 63);
+	background-size: auto;
+	/* padding: 100px; */
+	background: linear-gradient(90deg,#8360c3, #2ebf91);
+	width: 100%;
+	height: 200px;
+	padding-top: 90px;
+}
+	/* background-position: top; */
+	/* background: linear-gradient( #2c3e50,#bdc3c7); */
+
+/** box */
+
+.box{
+	width: 350px;
+	/* height: 40px; */
+	padding: 20px;
+	text-align: center;
+	background: #28b389;
+	border: 2px solid #2c3e50;
+	/* margin-left: 10px; */
+	border-radius: 10px;
+}
+
+/** flex */
+/* .container{ */
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* width: 100%; */
+	/* overflow-x: scroll; */
+	/* justify-content: space-between; */
+	/* flex-wrap: wrap; */
+	/* align-items: center; */
+/* } */
+
+/** grid */
+.container{
+	display: grid;
+	grid-template-columns: repeat(5, 400px);
+	grid-template-rows: repeat(5, 60px);
+	grid-gap: 10px;
+}
+
+.one{
+	width: 100%;
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+
+.two{
+	width: 90%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+
+.three{
+	width: 94%;
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.four{
+	width: 100%;
+	grid-column-start: 4;
+	grid-column-end: 6;
+}
+
+.five {
+	width: 100%;
+	grid-column-start: 2;
+	grid-column-end: 6;
+}
+
+.six{
+	width: 145%;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.seven{
+	width: 100%;
+	grid-column-start: 4;
+	grid-column-end: 6;
+}
+
+.eight{
+	width: 190%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.nine{
+	width: 100%;
+	grid-column-start: 3;
+	grid-column-end: 6;
+}
+
+
+
+/*
+.element_1{
+	order: 2;
+}
+
+.element_2{
+	order: 3;
+}
+
+.element_3{
+	order: 1;
+	flex: 1;
+} */
+
+/* img */
+.image_container
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.border_img{
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 6px 6px 20px rgb(29, 49, 63);
+}
+
+.border{
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 50px;
+	/* border-bottom: 2px solid orange;
+	border-right: 6px solid white;
+	border-left: 3px solid white;
+	border-top: 4px solid orange; */
+}
+
+img:hover{
+	opacity: 0.5;
+}
+
+button:active{
+	color: skyblue;
+}
+
+/* body */
+
+body{
+
+	background-color: #bdc3c7;
+	/* background-image: url("img/Universe.jpeg"); */
+	/* color: white; */
+}
+
